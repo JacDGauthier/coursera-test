@@ -1,0 +1,106 @@
+/****Base Style*****/
+
+*{
+	box-sizing: border-box;
+}
+
+p{
+	clear: right;
+}
+
+h1{
+	text-align: center;
+}
+
+div{
+	width: 30%;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 1%;
+	float: left;
+}
+
+
+#title1{
+	background-color: #A52A2A;
+	position: relative;
+	float: right;
+	width: 150px;
+    text-align: center;
+    left: 13px;
+    top: -13px;
+}
+
+#title2{
+	background-color: #DEB887;
+	position: relative;
+	float: right;
+	width: 150px;
+    text-align: center;
+    left: 13px;
+    top: -13px;
+}
+
+#title3{
+	background-color: #FF7F50;
+	position: relative;
+	float: right;
+	width: 150px;
+    text-align: center;
+    left: 13px;
+    top: -13px;
+}
+
+#p1{
+	background-color: grey;
+}
+
+#p2{
+	background-color: grey;
+}
+
+#p3{
+	background-color: grey;
+}
+
+/****Desktop version*****/
+
+@media (min-width: 992px){
+	div{
+		width: 30%;
+		margin: 1%;
+	}
+}
+
+/****Tablet version*****/
+
+@media (min-width:768px) and (max-width:991px){
+#p1{
+		width:48%;
+		margin:1%;
+	}
+ #p2{
+		width:48%;
+		margin:1%;
+	}
+ #p3{
+ 	width: 98%
+ }  
+}
+
+/****Cellphone version*****/
+
+@media (max-width:767px){
+	#p1{
+		width: 100%;
+	}
+
+	#p2{
+		width: 100%;
+	}
+
+	#p3{
+		width:100%;
+	}
+}
+
